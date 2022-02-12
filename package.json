@@ -13,6 +13,7 @@
     "@types/three": "0.136.1",
     "babel-loader": "^8.2.3",
     "css-loader": "^6.6.0",
+    "file-saver": "^2.0.5",
     "html-webpack-plugin": "^5.5.0",
     "lamina": "^1.0.1",
     "leva": "0.9.18",
@@ -29,5 +30,10 @@
     "start": "webpack-cli serve --mode=development --env development --open --hot",
     "build": "webpack --mode=production --env production --progress"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
